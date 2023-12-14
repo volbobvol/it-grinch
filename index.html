@@ -48,14 +48,14 @@
     <div class="container show-for-day" style="margin-top: 30px;display: none;">
         <span class="text">Your puzzle input for day <span id="selected-day"></span></span>:</span>
         <textarea type="text" style="margin-top: 10px; height: 200px;" class="form-control" id="puzzle-input" placeholder="Puzzle input"></textarea>
-        <br/>
-        <span class="result-top text" style="display: none;">Your result is: <span id="result"></span></span>
-        <div class="demo-container progress-only" style="margin-top: 10px;">
-            <div class="progress-bar">
-                <div class="progress-bar-value"></div>
+        <div style="height: 60px;padding-top: 20px;">
+            <span class="result-top text" style="display: none;">Your result is: <span id="result"></span></span>
+            <div class="demo-container progress-only">
+                <div class="progress-bar">
+                    <div class="progress-bar-value"></div>
+                </div>
             </div>
         </div>
-
         <div class="row">
             <div class="col-sm-6">
                 <button onclick="calculateResult()" class="btn btn-primary form-control" style="margin-top: 20px;">Get My Result for Part 1</button>
